@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Board.h</itemPath>
+      <itemPath>Frame.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Board.cpp</itemPath>
+      <itemPath>Frame.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../Libs/SFML-2.2/include/SFML</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libfreetype.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libglew32.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libjpeg.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libopenal32.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-audio-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-audio-s-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-audio-s.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-audio.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-graphics-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-graphics-s-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-graphics-s.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-graphics.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-main-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-main.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-network-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-network-s-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-network-s.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-network.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-system-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-system-s-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-system-s.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-system.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-window-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-window-s-d.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-window-s.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsfml-window.a</linkerLibFileItem>
+            <linkerLibFileItem>../Libs/SFML-2.2/lib/libsndfile.a</linkerLibFileItem>
+          </linkerLibItems>
+          <commandLine>-lncurses</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="Board.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Board.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Frame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Frame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Board.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Board.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Frame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Frame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
